@@ -1,5 +1,6 @@
+# ENABLE FOR PROD? 
 # Stop all running containers
-docker kill $(docker ps -aq) && docker rm $(docker ps -aq)
+# docker kill $(docker ps -aq) && docker rm $(docker ps -aq)
 
 # Create a network, which allows containers to communicate
 # with each other, by using their container name as a hostname
